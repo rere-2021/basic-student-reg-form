@@ -1,0 +1,97 @@
+<html>
+<head>
+<script type="text/javascript" src="validateform.js"></script>
+<style>
+ul {list-style-type:none;}
+form{
+  background-color: #aedb81;
+}
+</style>
+</head>
+ 
+<body>
+<form action="#" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
+ 
+<div cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+ 
+<ul>
+<li>
+<font size=6 color="#2152b5" style="font-family:verdana;"><b>Student Registration Form</b></font></center>
+</li>
+</ul>
+ 
+<ul>
+<li style="font-family:Arial, Helvetica, sans-serif;">First Name</li>
+<li><input type=text  name=textnames id="textname" size="30"></li>
+</ul>
+ 
+  <ul>
+<li style="font-family:Arial, Helvetica, sans-serif;">Last Name</li>
+<li><input type=text name=lastnames id="lastname" size="30"></li>
+</ul>
+
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">Date Of Birth</li>
+    <li style="font-family:Arial, Helvetica, sans-serif;"><input type="date" name="date_of_birth" id="dob"></li>
+
+</ul>
+
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">Gender</li>
+    <li><input type="text" name="gender"
+        id="gender" size="10"></li>
+</ul>
+  
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">Student Email</li>
+    <li><input type="text" name="email_id" id="emailid" size="30"></li>
+</ul>
+     
+     
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">Mobile Number</li>
+    <li><input type="text" name="mobilenumber" id="mobileno" size="10"></li>
+    </ul>
+
+ 
+<ul>
+<li style="font-family:Arial, Helvetica, sans-serif;">Address</li>
+<li><input type="text" name="address"
+id="address" size="30"></li>
+</ul>
+
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">PinCode</li>
+    <li><input type="text" name="pin_code" id="pincode" size="30"></li>
+</ul>
+ 
+ 
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">Course</li>
+    <li style="font-family:Arial, Helvetica, sans-serif;"><select name="Course">
+    <option value="-1" selected>select..</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="Mech">MBA</option>
+    <option value="Civil">BCA</option>
+    </select></li>
+</ul>
+
+  
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;">
+        <input type="radio" name="living" value="Hostel" size="10">Hostel
+        <input type="radio" name="living" value="Day Boarding" size="10">Day Boarding
+    </li>
+</ul>
+
+<ul>
+    <li style="font-family:Arial, Helvetica, sans-serif;"><input type="reset"></li>
+    <li colspan="2" style="font-family:Arial, Helvetica, sans-serif;"><input type="submit" value="Submit Form" /></li>
+</ul>
+
+</div>
+</form>
+</body>
+</html>
